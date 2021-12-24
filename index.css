@@ -1,0 +1,26 @@
+*{
+    font-family: 'Pushster', cursive;
+    font-size: 1.3rem;
+}
+#head{
+    text-align: center;
+    background-color: aqua;
+    padding: 20px;
+}
+.container{
+    border: 2px solid black;
+    padding-bottom: 20px;
+    border-radius: 25px;
+}
+.float{
+    float: right;
+}
+.done{
+    text-decoration: line-through;
+    background-color: aqua;
+}
+#searchBox{
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 35%;
+}
