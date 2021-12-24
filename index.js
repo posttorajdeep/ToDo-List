@@ -46,7 +46,8 @@ function handlerToDo(e) {
   }
 }
 
-function startSearching() {
+function startSearching(e) {
+  
   let inValue = searchBox.value.toLowerCase();
   let list = Array.from(toDoList.children);
   list.forEach((el) => {

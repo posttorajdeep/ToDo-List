@@ -2,22 +2,36 @@
     font-family: 'Pushster', cursive;
     font-size: 1.3rem;
 }
+body{
+    background-color: #56505A;
+}
 #head{
     text-align: center;
-    background-color: aqua;
+    background-color: #1F1822;
+    color: #928D95;
     padding: 20px;
 }
+
 .container{
-    border: 2px solid black;
+    border: 2px solid rgb(255, 255, 255);
     padding-bottom: 20px;
     border-radius: 25px;
+    background-color: #39343C;
+}
+#button-addon2{
+    color: beige;
+}
+#button-addon2:hover{
+    background-color: beige;
+    color: #39343C;
+
 }
 .float{
     float: right;
 }
 .done{
     text-decoration: line-through;
-    background-color: aqua;
+    background-color: #9888A1;
 }
 #searchBox{
     width: 30%;
