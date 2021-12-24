@@ -30,8 +30,10 @@ body{
     float: right;
 }
 .done{
-    text-decoration: line-through;
+    text-decoration: line-through black;
     background-color: #9888A1;
+    color: beige;
+
 }
 #searchBox{
     width: 30%;
